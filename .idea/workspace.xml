@@ -51,8 +51,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="825" />
-    <option name="y" value="261" />
+    <option name="x" value="726" />
+    <option name="y" value="262" />
     <option name="width" value="1012" />
     <option name="height" value="682" />
   </component>
@@ -89,7 +89,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files/1000phone/项目阶段/day01/spark-assembly-1.6.0-hadoop2.6.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/spark-assembly-1.6.0-hadoop2.6.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
