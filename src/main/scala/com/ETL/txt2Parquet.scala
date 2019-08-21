@@ -1,8 +1,10 @@
 package com.ETL
 
+import java.util.Properties
+
 import com.util.{SchemaUtils, Utils2Type}
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.{DataFrame, Row, SQLContext}
+import org.apache.spark.sql.{DataFrame, GroupedData, Row, SQLContext, SaveMode}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -135,10 +137,21 @@ object txt2Parquet {
     //构建DF
     val df: DataFrame = sqlContext.createDataFrame(rowRDD,SchemaUtils.structtype)
 
-    // 保存数据
-    df.write.parquet(outputPath)
+
+    df.registerTempTable("tmp")
+
+    val frame: DataFrame = sqlContext.sql("select count(1) ct,provincename,cityname from tmp group by provincename,cityname")
+
+    //frame.show()
+
+    val prop = new Properties()
+    prop.put("user", "root")
+    prop.put("password", "root")
+    val url = "jdbc:mysql://localhost:3306/gp22dmp?useUnicode=true&characterEncoding=utf-8"
+    frame.write.mode(SaveMode.Append).jdbc(url, "prodatacount", prop)
+
+    frame.write.partitionBy("provincename","cityname").save("hdfs://hadoop01:8020/gp22/DMP/out-20190821-1")
+
     sc.stop()
-
-
   }
 }
