@@ -30,18 +30,8 @@ object TagsContext {
     //读取数据
     val df: DataFrame = sQLContext.read.parquet(inputPath)
 
-    val app_dict: RDD[Array[String]] = sc.textFile("data/app_dict.txt").map(_.split("\t")).filter(_.length>=6)
-    val idnameRDD: RDD[(String, String)] = app_dict.map(row => {
-
-      val appname = row(1)
-      val appid = row(4)
-      (appid, appname)
-    })
-    val map: collection.Map[String, String] = idnameRDD.collectAsMap()
-
-    val broadcast: Broadcast[collection.Map[String, String]] = sc.broadcast(map)
-
-    val sw: collection.Map[String, Int] = sc.textFile("data/stopwords.txt").map((_,0)).collectAsMap()
+    val sw: collection.Map[String, Int] = sc.textFile("data/stopwords.txt")
+      .map((_,0)).collectAsMap()
     val swbc = sc.broadcast(sw)
     //过滤符合Id的数据
     val res: RDD[(String, List[(String, Int)])] = df.filter(TagUtils.OneUserId)
@@ -54,7 +44,8 @@ object TagsContext {
       //val adList = TagsApp.makeTags(row,broadcast)
       //val adList = TagsChannel.makeTags(row)
       //val adList = TagsEuipment.makeTags(row)
-      val adList = TagKeyWord.makeTags(row,swbc)
+      //val adList = TagKeyWord.makeTags(row,swbc)
+      val adList = TagsApp.makeTags(row)
 
       (userId, adList)
     })
