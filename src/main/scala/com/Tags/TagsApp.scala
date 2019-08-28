@@ -43,11 +43,8 @@ object TagsApp extends Tag{
         }else{
           list:+=("APP其他",1)
         }
-
       }
     }
-
-
     list
   }
 }

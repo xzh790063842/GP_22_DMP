@@ -2,30 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bcc3e3-6ee8-43d2-97fd-f6a400174c68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/RedisUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/TagsAppUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/RedisUtils$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/RedisUtils$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/RedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$$anonfun$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$$anonfun$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/exam/json.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/BusinessTag.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/exam/ExamTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/exam/ExamTest2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/graphx/graph_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/APp2Jedis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/AmapUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/HbaseUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/HttpUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/JedisConnectionPool.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/util/RedisUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/util/RedisUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$$anonfun$makeTags$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$$anonfun$makeTags$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/util/TagsAppUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/util/TagsAppUtils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ETL/txt2Parquet$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$$anonfun$makeTags$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$$anonfun$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rpt/IspRpt$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rpt/IspRpt$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/TagUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/util/TagUtils$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/TagUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/util/TagUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/util/TagsAppUtils$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,46 +57,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="172">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
-                <element signature="e#18#42#0" expanded="true" />
+                <element signature="e#18#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="444">
+              <caret line="151" column="69" selection-start-line="151" selection-start-column="69" selection-end-line="151" selection-end-column="69" />
               <folding>
-                <element signature="e#18#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/TagsAppUtils.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-              <folding>
-                <element signature="e#18#67#0" expanded="true" />
+                <element signature="e#17#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/RedisUtils.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="730">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding>
+                <element signature="e#25#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/graphx/graph_Test.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="746">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+              <folding>
+                <element signature="e#21#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,9 +128,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/util/SchemaUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/java/LinkedTableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyList.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/com/util/RptUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/rpt/LocationRpt.scala" />
         <option value="$PROJECT_DIR$/src/main/java/DoubleLinkedList.java" />
@@ -122,13 +138,28 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsChannel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsEuipment.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagKeyWord.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/JedisTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/util/RedisUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/util/TagsAppUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/exam/ExamTest2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/HttpUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/AmapUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/exam/ExamTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/HbaseUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/APp2Jedis.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/JedisConnectionPool.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/util/test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Tags/BusinessTag.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/graphx/graph_Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala" />
       </list>
     </option>
   </component>
@@ -149,9 +180,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="190" />
+    <option name="x" value="445" />
     <option name="y" value="525" />
-    <option name="width" value="1735" />
+    <option name="width" value="1480" />
     <option name="height" value="540" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -173,6 +204,11 @@
             <path>
               <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
               <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,6 +221,13 @@
               <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GP_22_DMP" type="b2602c69:ProjectViewProjectNode" />
@@ -228,17 +271,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/Tags" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.46125463" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Tags" />
       <recent name="com.rpt" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GP_22_DMP\src\main\scala\com\Tags" />
+      <recent name="D:\GP_22_DMP\src\main\scala\com\util" />
+      <recent name="D:\GP_22_DMP\data\exam" />
       <recent name="D:\GP_22_DMP\data" />
       <recent name="D:\GP_22_DMP\src\main\resources" />
     </key>
@@ -255,30 +302,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TagsAppUtils">
-    <configuration name="AppRpt" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rpt.AppRpt" />
+  <component name="RunManager" selected="Application.graph_Test">
+    <configuration name="TagsContext" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsContext" />
       <module name="GP_22_DMP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rpt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleLinkedList" />
-      <module name="GP_22_DMP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tags.JedisTest" />
-      <module name="GP_22_DMP" />
+      <option name="PROGRAM_PARAMETERS" value="output/test1 213213" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Tags.*" />
@@ -289,12 +317,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagsAppUtils" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.util.TagsAppUtils" />
+    <configuration name="TagsContext2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsContext2" />
       <module name="GP_22_DMP" />
+      <option name="PROGRAM_PARAMETERS" value="output/test1 20190826" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.util.*" />
+          <option name="PATTERN" value="com.Tags.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,8 +331,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagsContext" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsContext" />
+    <configuration name="TagsContext3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsContext3" />
       <module name="GP_22_DMP" />
       <option name="PROGRAM_PARAMETERS" value="output/test1" />
       <extension name="coverage">
@@ -316,20 +345,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="graph_Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.graphx.graph_Test" />
+      <module name="GP_22_DMP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.graphx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.util.test" />
+      <module name="GP_22_DMP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DoubleLinkedList" />
-      <item itemvalue="Application.AppRpt" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.TagsContext" />
-      <item itemvalue="Application.JedisTest" />
-      <item itemvalue="Application.TagsAppUtils" />
+      <item itemvalue="Application.TagsContext2" />
+      <item itemvalue="Application.graph_Test" />
+      <item itemvalue="Application.TagsContext3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TagsAppUtils" />
-        <item itemvalue="Application.JedisTest" />
+        <item itemvalue="Application.graph_Test" />
+        <item itemvalue="Application.TagsContext3" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.TagsContext2" />
         <item itemvalue="Application.TagsContext" />
-        <item itemvalue="Application.AppRpt" />
-        <item itemvalue="Application.DoubleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -386,11 +441,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566551031848</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20190824-1">
+      <created>1566608140766</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566608140766</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -398,16 +470,16 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20308311" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.21380697" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32763976" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.39660057" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.50708216" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,89 +525,10 @@
     <MESSAGE value="模板代码2" />
     <MESSAGE value="20190821" />
     <MESSAGE value="20190823" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190823" />
+    <MESSAGE value="20190824-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190824-1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/Utils2Type.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/GroupedData.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="58" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/SchemaUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/._SUCCESS.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/.part-r-00000-67fbf1f8-4449-4707-b16c-7d78f1c8cd17.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/.part-r-00004-67fbf1f8-4449-4707-b16c-7d78f1c8cd17.crc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00025-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00024-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00020-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00000-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00001-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00002-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00004-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00006-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00008-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test2/part-r-00010-67fbf1f8-4449-4707-b16c-7d78f1c8cd17">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/DataFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="117" column="62" selection-start-line="117" selection-start-column="56" selection-end-line="117" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedTableTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyList.java" />
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
@@ -544,13 +537,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="568">
@@ -570,58 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
-          <folding>
-            <element signature="e#25#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/app_dict.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="22">
           <caret line="1" column="58" lean-forward="true" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/test1/part-r-00000-61cc8dda-35a1-4245-8ccf-4318eb0e98d2.snappy.parquet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/2016-10-01_06_p1_invalid.1475274123982.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="111" column="94" selection-start-line="111" selection-start-column="94" selection-end-line="111" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rpt/LocationRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#17#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rpt/IspRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/RptUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -632,53 +570,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rpt/AppRpt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="31" column="110" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="110" />
-          <folding>
-            <element signature="e#17#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsEuipment.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="62" lean-forward="true" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-          <folding>
-            <element signature="e#18#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/Tag.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsAd.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#18#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagKeyWord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#18#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2734">
-          <caret line="142" column="74" selection-start-line="142" selection-start-column="62" selection-end-line="142" selection-end-column="74" />
-          <folding>
-            <element signature="e#17#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Pool.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -709,58 +597,347 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/JedisTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala">
+    <entry file="file://$PROJECT_DIR$/data/exam/json.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/exam/ExamTest2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="156">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
-            <element signature="e#18#61#0" expanded="true" />
+            <element signature="e#18#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala">
+    <entry file="file://$PROJECT_DIR$/output/test1/part-r-00000-61cc8dda-35a1-4245-8ccf-4318eb0e98d2.snappy.parquet">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="154">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2016-10-01_06_p1_invalid.1475274123982.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="111" column="94" selection-start-line="111" selection-start-column="94" selection-end-line="111" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/exam/ExamTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
-            <element signature="e#18#42#0" expanded="true" />
+            <element signature="e#18#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/RptUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="636">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/TagsAppUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="402">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="e#18#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/Utils2Type.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/HttpUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/eclipse/plugins/org.scala-ide.scala210.jars_4.5.0.201612131029/target/jars/scala-library-src.jar!/scala/collection/generic/GenericCompanion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/spark-assembly-1.6.0-hadoop2.6.0.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="809" column="13" selection-start-line="809" selection-start-column="13" selection-end-line="809" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/eclipse/plugins/org.scala-ide.scala210.jars_4.5.0.201612131029/target/jars/scala-library-src.jar!/scala/collection/Seq.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/eclipse/plugins/org.scala-ide.scala210.jars_4.5.0.201612131029/target/jars/scala-library-src.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/HbaseUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/APp2Jedis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-graphx_2.10/1.6.0/spark-graphx_2.10-1.6.0.jar!/org/apache/spark/graphx/VertexRDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="649" column="50" lean-forward="true" selection-start-line="649" selection-start-column="35" selection-end-line="649" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/AmapUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/RedisUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#18#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsAd.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagKeyWord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsEuipment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#18#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/BusinessTag.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/graphx/graph_Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="151" column="69" selection-start-line="151" selection-start-column="69" selection-end-line="151" selection-end-column="69" />
+          <folding>
+            <element signature="e#17#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/1000phone/项目阶段/day01/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/DataFrame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rpt/AppRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#17#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rpt/IspRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/rpt/LocationRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#17#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/util/JedisConnectionPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/proandcount/proCity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#25#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -837,11 +1014,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.10.6</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.46833774" />
+                <option value="0.46125463" />
               </list>
             </option>
           </splitter-proportions>

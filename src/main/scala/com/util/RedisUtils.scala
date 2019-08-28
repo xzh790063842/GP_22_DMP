@@ -34,5 +34,4 @@ object RedisUtils {
     jedis.close()
     res
   }
-
 }

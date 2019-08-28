@@ -42,7 +42,8 @@ object proCity {
     //注册临时表
     df.registerTempTable("log")
     val result = sqlContext.sql("select count(*),provincename,cityname from log group by provincename,cityname")
-   // result.coalesce(1).write.json(outputPath)
+    //输出到一个文件  coalesce重分区算子
+    //result.coalesce(1).write.json(outputPath)
 
     //加载配置文件，需要使用对应的依赖
     val load = ConfigFactory.load()

@@ -19,7 +19,6 @@ object TagsAppUtils {
 
     val app_dict: RDD[Array[String]] = sc.textFile("data/app_dict.txt").map(_.split("\t")).filter(_.length>=6)
     val idnameRDD: RDD[(String, String)] = app_dict.map(row => {
-
       val appname = row(1)
       val appid = row(4)
       (appid, appname)

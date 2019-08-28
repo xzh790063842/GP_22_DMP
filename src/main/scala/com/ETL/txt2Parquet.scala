@@ -33,6 +33,7 @@ object txt2Parquet {
 
     //创建执行入口
     val sc = new SparkContext(conf)
+
     val sqlContext = new SQLContext(sc)
 
     //设置压缩方式，使用snappy方式进行压缩
@@ -149,7 +150,6 @@ object txt2Parquet {
     prop.put("password", "root")
     val url = "jdbc:mysql://localhost:3306/gp22dmp?useUnicode=true&characterEncoding=utf-8"
     frame.write.mode(SaveMode.Append).jdbc(url, "prodatacount", prop)
-
     frame.write.partitionBy("provincename","cityname").save("hdfs://hadoop01:8020/gp22/DMP/out-20190821-1")
 
     sc.stop()
